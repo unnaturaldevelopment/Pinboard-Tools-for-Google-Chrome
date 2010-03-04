@@ -8,5 +8,5 @@ Written by JE Vasshaug, 2009
 Based on the "Del.icio.us Tools extension":https://chrome.google.com/extensions/detail/gclkcflnjahgejhappicbhcpllkpakej by sweaterbox
 
 h2. Changes
-* 1.2 -- Fixed problem with special characters in urls + other small bugfixes.
+* 1.2 -- Added link to Pinboard Network. Fixed problem with special characters in urls + other small bugfixes.
 * 1.1 -- Added link to unread items and tightened margins.
