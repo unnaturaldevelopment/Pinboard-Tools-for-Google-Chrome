@@ -10,7 +10,7 @@
 	}
 	], 
 	"name": "Pinboard Tools",
-	"version": "1.1",
+	"version": "1.2",
 	"description": "Toolbar actions for Pinboard (http://pinboard.in)",
 	"icons": {
 		"16": "img/pinboard16.png",
