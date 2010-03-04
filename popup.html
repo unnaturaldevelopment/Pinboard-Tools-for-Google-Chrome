@@ -9,7 +9,7 @@
 				color: #333;
 				cursor: hand;
 				font: normal 13px arial, sans-serif;
-				width: 130px;
+				width: 120px;
 				padding: 6px;
 				border-bottom: 1px dotted #AAA
 			}
@@ -31,11 +31,11 @@
 		<div class="toolstrip-button" onclick="window.open('http://pinboard.in/toread/')">
 			My unread items
 		</div>
-		<div class="toolstrip-button" onclick="window.open('http://pinboard.in/')">
+		<div class="toolstrip-button" onclick="chrome.tabs.create({url:'http://pinboard.in/'}); window.close();">
 			My Pinboard
 		</div>
-		<div class="toolstrip-button" onclick="window.open('http://pinboard.in/network/'); window.close();">
-			My Pinboard Network
+		<div class="toolstrip-button" onclick="chrome.tabs.create({url:'http://pinboard.in/network/'}); window.close();">
+			My Network
 		</div>
 	</body>
 </html>
