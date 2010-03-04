@@ -28,7 +28,7 @@
 		<div class="toolstrip-button" onclick="add_later()">
 			Read later
 		</div>
-		<div class="toolstrip-button" onclick="window.open('http://pinboard.in/toread/')">
+		<div class="toolstrip-button" onclick="chrome.tabs.create({url:'http://pinboard.in/toread/'}); window.close();">
 			My unread items
 		</div>
 		<div class="toolstrip-button" onclick="chrome.tabs.create({url:'http://pinboard.in/'}); window.close();">
