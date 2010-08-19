@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Pinboard Tools Options</title>
+  <script src="options.js"></script>
+</head>
+
+<body onload="loadOptions();">
+  <h1>Pinboard Tools</h1>
+
+  <p>Open the add bookmark page in:</p>
+  <p>
+    <input type="radio" name="open_in" value="popup" checked="true"/> Popup window<br>
+    <input type="radio" name="open_in" value="current_tab"/> Current tab<br>
+    <input type="radio" name="open_in" value="new_tab"/> New tab
+  </p>
+
+  <p><input type="button" value="Save Options" onclick="saveOptions();" /></p>
+</body>
+</html>
