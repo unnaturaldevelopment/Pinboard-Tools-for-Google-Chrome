@@ -3,10 +3,12 @@ var url;
 var title;
 function add_bookmark() {
 	chrome.tabs.getSelected( null , function(tab) {
+
  		url = (tab.url);
  		title = (tab.title);
- 		window.open(pinboardUrl + 'url=' + encodeURIComponent(url) + '&title=' + encodeURIComponent(title) + ' ','Pinboard','toolbar=no,width=700,height=350');
-	});
+ 		//window.open(pinboardUrl + 'url=' + encodeURIComponent(url) + '&title=' + encodeURIComponent(title) + ' ','Pinboard','toolbar=no,width=700,height=350');
+							   chrome.tabs.create({'index': tab.index, 'url':(pinboardUrl + 'url=' + encodeURIComponent(url) + '&title=' + encodeURIComponent(title))});
+    });
 }
 
 function add_later() {
