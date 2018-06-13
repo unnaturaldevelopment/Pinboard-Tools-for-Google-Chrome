@@ -1,4 +1,23 @@
 {
+	"manifest_version": 2,
+	"name": "Pinboard Tools",
+	"version": "2.0",
+
+	"default_locale": "en",
+	"description": "Toolbar actions for Pinboard (http://pinboard.in)",
+	"icons": {
+		"16": "img/pinboard16.png",
+		"32": "img/pinboard32.png",
+		"48": "img/pinboard48.png",
+		"128": "img/pinboard128.png"
+	},
+
+	"browser_action": {
+		"default_title": "Pinboard Tools",
+		"default_icon": "img/pinboard16.png",
+		"popup": "popup.html"
+	},
+
 	"content_scripts": [
 	{
 		"js": [
@@ -9,23 +28,8 @@
 		]
 	}
 	], 
-	"name": "Pinboard Tools",
-	"version": "1.2",
-	"description": "Toolbar actions for Pinboard (http://pinboard.in)",
-	"manifest_version": 2,
-	"icons": {
-		"16": "img/pinboard16.png",
-		"32": "img/pinboard32.png",
-		"48": "img/pinboard48.png",
-		"128": "img/pinboard128.png" 
-	},
 	"permissions": [
 	"tabs"
 	],
-	"browser_action": {
-		"default_title": "Pinboard Tools",
-		"default_icon": "img/pinboard16.png",
-		"popup": "popup.html"
-	},
 	"options_page": "options.html"
 }
