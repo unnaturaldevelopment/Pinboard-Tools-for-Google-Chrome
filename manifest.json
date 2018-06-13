@@ -3,7 +3,6 @@
 	"name": "Pinboard Tools",
 	"version": "2.0",
 
-	"default_locale": "en",
 	"description": "Toolbar actions for Pinboard (http://pinboard.in)",
 	"icons": {
 		"16": "img/pinboard16.png",
