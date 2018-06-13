@@ -17,16 +17,6 @@
 		"default_popup": "popup.html"
 	},
 
-	"content_scripts": [
-	{
-		"js": [
-		"pinboard_content_script.js"
-		], 
-		"matches": [
-		"http://*/*"
-		]
-	}
-	], 
 	"permissions": [
 	"tabs"
 	],
