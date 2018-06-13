@@ -1,6 +1,6 @@
-var pinboardUrl = "http://pinboard.in/add?";
-var url;
-var title;
+const pinboardUrl = "http://pinboard.in/add?";
+let url;
+let title;
 function add_bookmark() {
 	chrome.tabs.query( {active: true, currentWindow: true} , function(tab) {
 		url = tab[0].url;
