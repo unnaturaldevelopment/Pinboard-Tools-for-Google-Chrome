@@ -22,19 +22,19 @@
 		</style>
 	</head>
 	<body>
-		<div class="toolstrip-button" onclick="add_bookmark()">
+		<div id="save" class="toolstrip-button">
 			Save to Pinboard
 		</div>
-		<div class="toolstrip-button" onclick="add_later()">
+		<div id="later" class="toolstrip-button">
 			Read later
 		</div>
-		<div class="toolstrip-button" onclick="chrome.tabs.create({url:'http://pinboard.in/toread/'}); window.close();">
-			My unread items
+		<div id="unread" class="toolstrip-button">
+			Unread bookmarks
 		</div>
-		<div class="toolstrip-button" onclick="chrome.tabs.create({url:'http://pinboard.in/'}); window.close();">
+		<div id="go_home" class="toolstrip-button">
 			My Pinboard
 		</div>
-		<div class="toolstrip-button" onclick="chrome.tabs.create({url:'http://pinboard.in/network/'}); window.close();">
+		<div id="go_network" class="toolstrip-button">
 			My Network
 		</div>
 	</body>

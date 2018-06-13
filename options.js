@@ -20,3 +20,8 @@ function saveOptions() {
             localStorage['open_in'] = this.value;
     });
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('input#save').addEventListener('click', saveOptions);
+    loadOptions();
+});
