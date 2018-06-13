@@ -12,6 +12,7 @@
 	"name": "Pinboard Tools",
 	"version": "1.2",
 	"description": "Toolbar actions for Pinboard (http://pinboard.in)",
+	"manifest_version": 2,
 	"icons": {
 		"16": "img/pinboard16.png",
 		"32": "img/pinboard32.png",
