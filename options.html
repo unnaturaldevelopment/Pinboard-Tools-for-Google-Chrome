@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Pinboard Tools Options</title>
+  <script src="options.js"></script>
+</head>
+
+<body>
+  <h1>Pinboard Tools</h1>
+
+  <p>Any page opened by the extension will use the setting identified below.</p>
+  <p>
+    <input id="popup" type="radio" name="open_in" value="popup" checked/>
+      <label for="popup">New Window</label><br>
+    <input id="current_tab" type="radio" name="open_in" value="current_tab"/>
+      <label for="current_tab">Current Tab</label><br>
+    <input id="new_tab" type="radio" name="open_in" value="new_tab"/>
+      <label for="new_tab">New Tab</label>
+  </p>
+
+  <p><input id="save" type="button" value="Save Options"/></p>
+</body>
+</html>
