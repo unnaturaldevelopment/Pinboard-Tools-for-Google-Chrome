@@ -14,7 +14,7 @@
 	"browser_action": {
 		"default_title": "Pinboard Tools",
 		"default_icon": "img/pinboard16.png",
-		"popup": "popup.html"
+		"default_popup": "popup.html"
 	},
 
 	"content_scripts": [
